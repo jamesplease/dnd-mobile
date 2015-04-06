@@ -1,0 +1,11 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.drag-me {
+  width: 200px;
+  height: 150px;
+  background: #eee;
+  border-radius: 3px;
+}
