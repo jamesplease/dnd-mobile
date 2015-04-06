@@ -7,9 +7,15 @@ Drag and drop tests for mobile devices.
 2. Run `bower install` from the root project directory.
 3. Start a simple server from the directory, and navigate to `127.0.0.1` in your browser.
 
-### Testing
+### Testing draggable
 
-Try to drag the grey box. If it can be dragged, then the test is a success.
+Try to drag the blue box. If it can be dragged, then the test is a success.
+
+### Testing droppable
+
+Drag the blue box into the labeled drop zone. Reference the console output
+for the triggered events on the droppable view. If there is console output,
+then the test is a success.
 
 ### FAQ
 
