@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DnD Mobile Test</title>
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+</head>
+<body>
+  <div class='drag-me'></div>
+  <div class='drop-zone'></div>
+
+  <script type="text/javascript">
+    window.iosDragDropShim = { enableEnterLeave: true };
+  </script>
+  <script src="bower_components/ios-html5-drag-drop-shim/ios-drag-drop.js"></script>
+
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/backbone/backbone.js"></script>
+  <script>
+    Backbone.$ = $;
+  </script>
+  <script src="bower_components/backbone.marionette/lib/backbone.marionette.js"></script>
+  <script src="src/behaviors-resolver.js"></script>
+  <script src="src/behaviors/draggable-behavior.js"></script>
+  <script src="src/behaviors/droppable-behavior.js"></script>
+  <script src="src/views/draggable-view.js"></script>
+  <script src="src/views/droppable-view.js"></script>
+</body>
+</html>
