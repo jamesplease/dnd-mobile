@@ -6,6 +6,7 @@
 </head>
 <body>
   <div class='drag-me'></div>
+  <div class='drop-zone'></div>
 
   <script type="text/javascript">
     window.iosDragDropShim = { enableEnterLeave: true };
@@ -21,7 +22,9 @@
   </script>
   <script src="bower_components/backbone.marionette/lib/backbone.marionette.js"></script>
   <script src="src/behaviors-resolver.js"></script>
-  <script src="src/draggable-behavior.js"></script>
-  <script src="src/view.js"></script>
+  <script src="src/behaviors/draggable-behavior.js"></script>
+  <script src="src/behaviors/droppable-behavior.js"></script>
+  <script src="src/views/draggable-view.js"></script>
+  <script src="src/views/droppable-view.js"></script>
 </body>
 </html>
