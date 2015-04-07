@@ -16,7 +16,7 @@
   "dependencies": {
     "backbone": "~1.1.2",
     "backbone.marionette": "~2.4.1",
-    "ios-html5-drag-drop-shim": "https://github.com/timruffles/ios-html5-drag-drop-shim.git#234a35df1ba302f2f4",
+    "ios-html5-drag-drop-shim": "https://github.com/jmeas/ios-html5-drag-drop-shim.git#57319bb1df3f072bde",
     "jquery": "~2.1.3",
     "modernizr": "~2.8.3"
   }
